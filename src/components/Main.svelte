@@ -145,6 +145,30 @@
             </Step>
         </div>
     </section>
+    <section id="problems-solved" aria-labelledby="problems-solved-heading" class="py-12 sm:py-20">
+        <h2 id="problems-solved-heading" class="text-center font-semibold text-3xl sm:text-4xl">
+            Troubleshooting &amp; <span class="poppins text-violet-400">Problems Solved</span>
+        </h2>
+        <div class="mt-8 grid gap-6 md:grid-cols-2">
+            <article class="rounded-lg border border-slate-700 p-6">
+                <h3 class="text-xl font-semibold">Automating Dell hardware configuration</h3>
+                <p class="mt-3">
+                    At Aligned Automation, I built reusable Python modules to configure enterprise hardware
+                    over serial, SSH, and REST APIs. I tested the modules on physical hardware and used
+                    deployment logs and field engineer feedback to investigate issues.
+                </p>
+                <p class="mt-3">Field engineers used the tooling across more than 200 customer-site deployments.</p>
+            </article>
+            <article class="rounded-lg border border-slate-700 p-6">
+                <h3 class="text-xl font-semibold">Detecting anomalies in sensor data</h3>
+                <p class="mt-3">
+                    At Tvarit, I wrote Python scripts to validate sensor data and used Great Expectations
+                    to detect anomalies. I configured alerts on existing Grafana dashboards so anomalies
+                    could be flagged for investigation.
+                </p>
+            </article>
+        </div>
+    </section>
     <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
